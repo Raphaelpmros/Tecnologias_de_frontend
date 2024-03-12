@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    color: #566787;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table-wrapper {
+    background-color: #fff;
+    padding: 20px 25px;
+    margin: 30px 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.table-title {
+    padding-bottom: 15px;
+    background-color: #425d7d;
+    color: #fff;
+    padding: 16px 30px;
+    margin: -20px -25px 10px;
+    border-radius: 3px 3px 0 0;
+}
+
+.table-title h2 {
+    margin: 5px 0 0
+}
+
+.table-title .btn {
+    float: right;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    outline: none !important;
+    margin-left: 10px;
+}
+
+.table-title .btn i {
+    float: left;
+    font: 21px;
+    margin-right: 5px;
+}
+
+table.table tr th, table.table tr td {
+    border-color: #fff;
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+
+table.table tr th:first-child {
+    width: 60px;
+}
+
+table.table tr th:last-child {
+    width: 100px
+}
+
+table.table tr i {
+    margin: 0 5px;
+}
+
+table.table td a {
+    font-weight: bold;
+    color: #566787;
+    display: inline-block;
+    text-decoration: none;
+    outline: none !important;
+}
+
+table.table td a:hover {
+    color: #2196f3;
+}
+
+table.table td a.edit {
+    color: #ffc107;
+}
+
+table.table td a.delete {
+    color: #f44336;
+}
+
+/*Pagination*/
+
+.pagination {
+    float: right;
+    margin: 0 0 5px;
+}
+
+.pagination li a {
+    border: none;
+    min-width: 30px;
+    min-height: 30px;
+    color: #999;
+    margin: 0 2px;
+    border-radius: 2px !important;
+    text-align: center;
+    padding: 0 6px;
+    line-height: 30px;
+}
+
+.hint-text {
+    float: left;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.pagination li a:hover {
+    color: #666;
+}
+
+.pagination li.active a, .pagination li.active a.page-link {
+    background-color: #03a9f4;
+}
+
+.pagination li.active a:hover {
+    background-color: #03a9f4;
+}
+
+.pagination li.disabled a {
+    color: #ccc;
+}
+
